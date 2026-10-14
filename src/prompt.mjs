@@ -10,8 +10,8 @@ const GROUNDING_STRONG = "자료에 근거한 내용만 답하고, 자료에 없
 const GROUNDING_WEAK =
   "주의: 검색된 조각의 유사도가 낮습니다. 질문과 완전히 맞는 근거가 아닐 수 있으니, " +
   "근거에 있는 내용만 짧게 답하고 자료에 없는 부분은 없다고 말합니다.";
-const CITATION_RULE = "근거가 된 조각의 ID만 [WH-012]처럼 대괄호로 감싸 해당 문장 끝에 표시합니다.";
-const CITATION_REMINDER = "(답할 때 근거로 쓴 자료의 ID를 [WH-012]처럼 문장 끝에 붙입니다.)";
+const CITATION_RULE = "근거가 된 조각의 ID만 [WH-000]처럼 대괄호로 감싸 해당 문장 끝에 표시합니다.";
+const CITATION_REMINDER = "(답할 때 근거로 쓴 자료의 ID를 [WH-000]처럼 문장 끝에 붙입니다.)";
 
 const KST_FORMAT = new Intl.DateTimeFormat("ko-KR", {
   timeZone: "Asia/Seoul",
