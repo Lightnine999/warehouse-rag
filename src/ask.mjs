@@ -49,7 +49,7 @@ function printMessages(messages) {
 // LLM을 부르기 직전에만 연결을 확인한다
 async function ensureOllama() {
   if (await pingOllama()) return true;
-  console.error("✗ Ollama가 실행 중인지 확인하세요 (확인: curl.exe http://localhost:11434/api/tags)");
+  console.error("✗ Ollama가 실행 중인지 확인하세요 (확인: curl http://localhost:11434/api/tags)");
   process.exitCode = 1;
   return false;
 }
